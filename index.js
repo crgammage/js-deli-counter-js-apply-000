@@ -1,7 +1,8 @@
 var katzDeli = [];
+var place = katzDeli.length + 1
 function takeANumber(katzDeli, name) {
-  var place = katzDeli.length + 1
   katzDeli.push(new Object({personName: personName, personPlace: place})
+  place++;
   return (`Welcome ${name} you are number ${place} in line`)
 }
 
